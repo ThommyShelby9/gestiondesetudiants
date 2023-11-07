@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
-import {clientHttp} from '@/lib/clientHttp'
+import clientHttp from '@/lib/clientHttp'
 const students = ref()
 const token = localStorage.getItem('token')
 async function getStudent(){

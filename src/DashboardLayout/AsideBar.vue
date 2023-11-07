@@ -2,7 +2,7 @@
 import { RouterLink} from 'vue-router'
 import AsideBarLogo from '../DashboardLayout/AsideBarLogo.vue';
 import { ref, defineEmits } from 'vue';
-import { clientHttp } from '@/lib/clientHttp.js'
+import  clientHttp  from '@/lib/clientHttp.js'
 import router from '@/router';
 
 const emits = defineEmits(['userInfoFetched']);

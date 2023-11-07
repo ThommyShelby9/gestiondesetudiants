@@ -17,7 +17,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import router from '@/router';
-import { clientHttp } from '@/lib/clientHttp'
+import  clientHttp  from '@/lib/clientHttp'
 const studentData = ref({
     firstname: '',
     lastname: '',

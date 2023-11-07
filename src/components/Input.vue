@@ -7,7 +7,6 @@
             <input type="email" name="" id="email" placeholder="Email" v-model="userInfo.email"><br>
             <input type="number" id="registre" placeholder="Numéro de téléphone" v-model="userInfo.tel"><br>
             <input type="password" id="password" placeholder="Mot de passe" v-model="userInfo.password"><br>
-            <p>{{ Error }}</p>
             <a href="/connexion">Déjà un compte? Se connecter</a>
             <button>Envoyer</button>
         </form>
@@ -16,7 +15,7 @@
 </template>
 
 <script lang="ts" setup>
-import {clientHttp} from '@/lib/clientHttp'
+import clientHttp from '@/lib/clientHttp'
 import { ref } from 'vue'
 import router from '@/router';
 

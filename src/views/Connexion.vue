@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { clientHttp } from '@/lib/clientHttp'
+import  clientHttp  from '@/lib/clientHttp'
 import { ref } from 'vue'
 import router from '@/router';
 

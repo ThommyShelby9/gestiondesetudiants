@@ -43,7 +43,7 @@
 </template>
 
 <script setup lang="ts">
-import { clientHttp } from '@/lib/clientHttp'
+import  clientHttp  from '@/lib/clientHttp'
 import { ref } from 'vue'
 var idMatiere = ref()
 const matiere = ref()
