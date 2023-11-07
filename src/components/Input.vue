@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts" setup>
-import {clientHttp} from '@/lib/clientHttp.js'
+import {clientHttp} from '@/lib/clientHttp'
 import { ref } from 'vue'
 import { useUserStore } from '@/stores/user'
 import router from '@/router';

@@ -1,12 +1,13 @@
-import axios, { Axios } from 'axios';
+import axios from 'axios';
 
-export const clientHttp = axios.create(
+const clientHttp = axios.create(
     {
         baseURL: "http://localhost:4010/",
         headers: {
             Accept: 'text/plain',
             'Content-Type': 'application/json',
-           // 'Authorization': 'Bearer ${token}', 
         }
     }
 )
+
+export default  clientHttp

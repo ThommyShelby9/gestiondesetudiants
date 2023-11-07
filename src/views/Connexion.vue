@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { clientHttp } from '@/lib/clientHttp'
-import { supabase } from '@/lib/supabase'
 import { ref } from 'vue'
 import { useUserStore } from '@/stores/user'
 import router from '@/router';
