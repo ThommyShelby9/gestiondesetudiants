@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import {clientHttp} from '@/lib/clientHttp.js'
+import clientHttp from '@/lib/clientHttp'
 import router from '@/router';
 import {ref} from 'vue'
 const mailCode = ref()
