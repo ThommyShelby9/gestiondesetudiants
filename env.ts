@@ -1,0 +1,2 @@
+export const SUPABASE_URL = "https://ghebovorcevhprsywirs.supabase.co"
+export const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdoZWJvdm9yY2V2aHByc3l3aXJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTE0ODM0NzQsImV4cCI6MjAwNzA1OTQ3NH0.fp72MCcF28fSybdjBf9LuN7ZRCJgqwNRmEsOQKCMCqw" 
