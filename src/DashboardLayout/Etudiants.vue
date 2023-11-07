@@ -1,16 +1,6 @@
 <script lang="ts" setup>
-import { useEtudiantStore } from '@/stores/etudiants';
-import { useRouter } from 'vue-router'
-import { storeToRefs } from 'pinia'
-import { onMounted, ref } from 'vue';
-import {useUserStore} from '@/stores/user'
+import { ref } from 'vue';
 import {clientHttp} from '@/lib/clientHttp'
-const {UserInitialise, UserConnectData} = storeToRefs(useUserStore())
-const { initialise } = useEtudiantStore()
-const { etudiants, dataConnection,dataConnect } = storeToRefs(useEtudiantStore())
-const router = useRouter()
-
-
 const students = ref()
 const token = localStorage.getItem('token')
 async function getStudent(){

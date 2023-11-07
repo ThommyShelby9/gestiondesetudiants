@@ -15,18 +15,9 @@
 
 
 <script lang="ts" setup>
-import { supabase } from '@/lib/supabase'
-import { ref, onMounted, watch } from 'vue'
-import { useEtudiantStore } from '@/stores/etudiants'
+import { ref } from 'vue'
 import router from '@/router';
 import { clientHttp } from '@/lib/clientHttp'
-import { storeToRefs } from 'pinia';
-const { etudiants } = storeToRefs(useEtudiantStore())
-const { addstudent } = useEtudiantStore()
-import { useUserStore } from '@/stores/user';
-const { userData } = useUserStore()
-const { users, UserInitialise, UserConnectData, } = storeToRefs(useUserStore())
-
 const studentData = ref({
     firstname: '',
     lastname: '',

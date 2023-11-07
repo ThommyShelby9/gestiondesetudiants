@@ -1,11 +1,4 @@
 <script lang="ts" setup>
-import ImageAcceuil from '@/components/icons/ImageAcceuil.vue';
-import { useUserStore } from '@/stores/user';
-import { onMounted } from 'vue';
-const { initialise } = useUserStore()
-/* const { users } = storeToRefs(useUserStore())
-const router = useRouter() */
-
 
 </script>
 

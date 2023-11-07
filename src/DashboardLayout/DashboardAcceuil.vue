@@ -1,14 +1,5 @@
 <script lang="ts" setup>
-import { RouterLink, RouterView } from 'vue-router'
 import AsideBarLogo from '../DashboardLayout/AsideBarLogo.vue';
-import { defineStore } from 'pinia';
-import { storeToRefs } from 'pinia';
-import { useUserStore } from '@/stores/user'; 
-import { onMounted, ref } from 'vue';
-const { userData } = useUserStore()
-const { users, UserInitialise, UserConnectData, } = storeToRefs(useUserStore())
-
-
 </script>
 
 <template>

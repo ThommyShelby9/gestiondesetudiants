@@ -1,14 +1,6 @@
 <script setup lang="ts">
-import { RouterLink, RouterView, useRouter } from 'vue-router'
-import { storeToRefs } from 'pinia';
-import {useUserStore} from '@/stores/user' 
-import { onMounted, ref, } from 'vue';
+import { RouterView } from 'vue-router'
 import AsideBar from './AsideBar.vue';
-const router = useRouter()
- const { userData } = useUserStore()
-const { users, UserInitialise,  } = storeToRefs(useUserStore()) 
-
-
 
 </script>
 

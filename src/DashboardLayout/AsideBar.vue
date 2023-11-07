@@ -1,13 +1,9 @@
 <script lang="ts" setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink} from 'vue-router'
 import AsideBarLogo from '../DashboardLayout/AsideBarLogo.vue';
-import { storeToRefs } from 'pinia';
-import { useUserStore } from '@/stores/user';
-import { onMounted, ref, defineEmits } from 'vue';
+import { ref, defineEmits } from 'vue';
 import { clientHttp } from '@/lib/clientHttp.js'
 import router from '@/router';
-const { userData } = useUserStore()
-const { users, UserInitialise, UserConnectData } = storeToRefs(useUserStore())
 
 const emits = defineEmits(['userInfoFetched']);
 const userConnect = ref(null);
